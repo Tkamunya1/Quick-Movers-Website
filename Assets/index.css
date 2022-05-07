@@ -4,9 +4,88 @@
     font-family: 'Poppins';
     box-sizing: border-box;
 }
-.Navbar{
-    background-image: image(./Assets/images/moving 1.png)
+.sect1{
+    background-image: url("../Assets/images/moving\ 1.png");
+    height: 800px;
+    width:auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+
 }
-nav >.Links>ul>li{
+
+.sect1 > .logo >ul{ 
+    margin-left: 500px;
+}
+
+.sect1 > .logo > ul > li{
     display: inline-block;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+    margin-top: 30px;}
+    .sect1 > .sectContent > h1{
+        font-size: 50px;
+        margin-left: 100px;
+        margin-top: 90px;
+        color: #FAFF00;
+        font-family: 'Poppins';
+    }
+
+.sect1 > .sectContent> p{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: 400;
+
 }
+
+.CutTheHustle {
+    display: flex;
+    margin-top: 40px;
+    
+}
+.CutTheHustle>.Hustle{
+    margin: 40px;
+}
+.CutTheHustle> .Hustle h1{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.CutTheHustle > .Hustle p{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-bottom: 50px;
+
+}
+.CutTheHustle > .Hustle button{
+    padding: 10px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: #FAFF00;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 100;
+    content: "\2192";
+}
+
+.CutTheHustle>.Hustle span{
+    content: "\2192";
+    justify-content: center;
+    color:#FAFF00;
+    
+}
+
+.line{
+   
+    width: 112px;
+    height: 40px;
+    border-bottom: 4px solid black;
+    position:relative
+    }
