@@ -1,0 +1,59 @@
+.card-items{
+height: 125vh;
+  width: 100%;
+  padding-left: 5px;
+}
+.card-items>#cards>ul>li{
+list-style-type: none;
+}
+.card-items>.movers>#cards{
+    display: block;
+}
+
+.card-items>#cards>.card1 {
+  margin: 100px auto 0;
+  display: inline-block;
+  width: 1000px;
+  height: 1000px;
+  perspective: 700px;
+  align-items: center;
+}
+.card-items>#cards>.card2 {
+margin: 100px auto 0;
+display: inline-block;
+width: 400px;
+height: 600px;
+perspective: 700px;
+align-items: center;}
+
+.card-items>#cards>.card3{
+margin: 100px auto 0;
+display: inline-block;
+width: 400px;
+height: 600px;
+perspective: 700px;
+align-items: center;}
+
+.card-items>#cards>.card4 {
+margin: 100px auto 0;
+display: inline-block;
+width: 400px;
+height: 600px;
+perspective: 700px;
+align-items: center;}
+
+.card-items>#cards>.card5 {
+margin: 100px auto 0;
+display: inline-block;
+width: 400px;
+height: 600px;
+perspective: 700px;
+align-items: center;}
+
+.card-items>#cards>.card6 {
+margin: 100px auto 0;
+display: inline-block;
+width: 400px;
+height: 600px;
+perspective: 700px;
+align-items: center;}  
