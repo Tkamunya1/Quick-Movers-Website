@@ -6,7 +6,7 @@
     margin-right: 10px;
 }
 .sect1{
-    background-image: url("../Assets/images/moving\ 1.png");
+    background-image: url("/Assets/images/moving\ 1.png");
     height: 800px;
     width:auto;
     background-size: cover;
@@ -26,7 +26,7 @@
     color: white;
     margin-top: 30px;}
 
-.sect1 >.logo > ul > li > .button > .LogIn1{
+.LogIn1{
     background-color: #FAFF00;
     font-size: 20px;
     padding: 10px;
@@ -34,8 +34,9 @@
     border-radius: 10px;
     
 }
-.sect1 >.logo > ul > li > .button > .LogIn2{
-    background-color: #FAFF00;
+.LogIn2{
+    background-color: black;
+    color: #FAFF00;
     font-size: 20px;
     padding: 10px;
     margin-top: 20px;
