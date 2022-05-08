@@ -3,6 +3,7 @@
     padding: 0%;
     font-family: 'Poppins';
     box-sizing: border-box;
+    margin-right: 10px;
 }
 .sect1{
     background-image: url("../Assets/images/moving\ 1.png");
@@ -107,5 +108,61 @@
     border-bottom: 4px solid black;
     position:relative
     }
-
+    #firstPageFooter{
+        background-color: #1c1302;
+        background-image: linear-gradient(to right top, #000000, #0c0404, #150905, #1a0e04, #1c1302);
+        font-family: 'Actor', sans-serif;
+    }
+    #firstPageFooter > h2{
+        font-size: 2.6rem;
+        margin-bottom: 60px;
+        color: #fff;
+        font-weight: 500;
+        padding-top: 90px;
+        margin-left: 100px;
+    }
+    .footerSection{
+        display: flex;
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+    }
+    .columnHeading > h5{
+        color: white;
+        font-size: 1.1rem;
+    }
+    .columnHeading > p{
+        color: white;
+        font-weight: 500;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+    }
+    .icon-section{
+        display: flex;
+        gap: 20px;
+    }
+    .fa-twitter{
+        color: white;
+        font-size: 24px;
+    }
+    .fa-facebook{
+        font-size: 24px;
+        color: white;
+    }.fa-instagram{
+        font-size: 24px;
+        color: white;
+    }
+    .footerButton{
+        color: #e48f1b;
+    }
+    .border{
+        width: 80%;
+        margin-bottom: 60px;
+        margin-left: 100px;
+    }
+    .border{
+        border: 0.5px solid grey;
+    }
+    .columnHeading{
+        margin-left: 80px;
+    }
     
