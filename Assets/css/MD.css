@@ -124,14 +124,16 @@ form > input, #learnMore{
 }
 #Description{
     width: 100px;
-    border: 2px solid gray;
+    border: 5px;
+    border-color: #1a0e04;
     padding: 30px;
     margin: 10px;
     width: 30%;
   }
   #DSContent{
     width: 100px;
-    border: 2px solid gray;
+    border: 5px;
+    border-color: #1c1302;
     padding: 30px;
     margin: 10px;
     width: 30%;
@@ -146,6 +148,20 @@ form > input, #learnMore{
   .P3{
       margin-top: 5px;
   }
+  #Features{
+    width: 0px;
+    border: 5px gray;
+    padding: 0px;
+    margin: 0px;
+  }
+  #Features>.column{
+      font-size: small;
+  }
+  
+#Features>ul>li:before {
+  content: '✓';
+}
+
 #secondPageFooter{
     background-color: #1c1302;
     background-image: linear-gradient(to right top, #000000, #0c0404, #150905, #1a0e04, #1c1302);
