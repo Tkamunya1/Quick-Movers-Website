@@ -108,6 +108,18 @@
     border-bottom: 4px solid black;
     position:relative
     }
+    .card-items{
+        height: 125vh;
+          width: 100%;
+          margin-left: 20px;
+          justify-content: center;
+        }
+        nav>.card-items>#cards>ul>li{
+        list-style-type: none;
+        display: inline-block;
+        flex-direction: row;
+        
+        }
     #firstPageFooter{
         background-color: #1c1302;
         background-image: linear-gradient(to right top, #000000, #0c0404, #150905, #1a0e04, #1c1302);
