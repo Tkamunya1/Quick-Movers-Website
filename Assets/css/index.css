@@ -85,30 +85,30 @@
 
 }
 .CutTheHustle > .Hustle button{
-    padding: 10px;
-    border-top-right-radius: 15px;
-    background-color: black;
-    color: #FAFF00;
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: 100;
-    content: "\2192";
+padding: 10px;
+border-top-right-radius: 15px;
+background-color: black;
+color: #FAFF00;
+font-size: 18px;
+font-family: 'Poppins';
+font-weight: 100;
+content: "\2192";
 }
 
 .CutTheHustle>.Hustle span{
-    content: "\2192";
-    justify-content: center;
-    color:#FAFF00;
+content: "\2192";
+justify-content: center;
+color:#FAFF00;
     
 }
 
 .line{
    
-    width: 112px;
-    height: 40px;
-    border-bottom: 4px solid black;
-    position:relative
-    }
+width: 112px;
+height: 40px;
+border-bottom: 4px solid black;
+position:relative
+}
 .card-items{
  height: 125vh;
  width: 100%;
